@@ -1,0 +1,71 @@
+/* Container styling */
+.child1-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Controls styling */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .company-selector,
+  .month-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-selector h3,
+  .month-selector h3 {
+    margin-right: 10px;
+  }
+  
+  .company-selector label {
+    margin-right: 15px;
+  }
+  
+  /* Chart container */
+  .chart-container {
+    position: relative;
+  }
+  
+  /* Tooltip styling */
+  .tooltip {
+    position: absolute;
+    background-color: #fff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+  }
+  
+  /* Line styles */
+  .open-line {
+    fill: none;
+    stroke: #b2df8a; /* Open color */
+    stroke-width: 2;
+  }
+  
+  .close-line {
+    fill: none;
+    stroke: #e41a1c; /* Close color */
+    stroke-width: 2;
+  }
+  
+  /* Dot styles */
+  .dot-open {
+    fill: #b2df8a; /* Open color */
+  }
+  
+  .dot-close {
+    fill: #e41a1c; /* Close color */
+  }
+  
+  /* Legend text styling */
+  .legend text {
+    font-size: 12px;
+  }
+  
